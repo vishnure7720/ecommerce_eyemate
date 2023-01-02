@@ -1,0 +1,118 @@
+/* 
+
+.login form{
+    
+
+    border:1px solid #333 ;
+    margin: 5rem auto;
+    width: 50rem;
+    height: 35rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.login form h3 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: .7rem;
+}
+
+.login form .inputBox{
+    margin: 1rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: .5rem;
+    background: #eee;
+    padding: .5rem 1rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login form .inputBox span {
+    color: #666;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.login form .inputBox input {
+    width: 100%;
+    padding: 1rem;
+    background: none;
+    font-size: 1.5rem;
+    color: #666;
+    text-transform: none;
+}
+
+.login form .flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.login form .flex label {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+}
+.login form a{
+    color: #e84393;
+    font-size: medium;
+    border:1px solid #333;
+}
+
+.login form .flex a {
+    font-size: 1.5rem;
+    color: #666;
+    margin-left: auto;
+    border: 0rem;
+}
+
+.login form .flex a:hover {
+    color: #e84393;
+}
+
+.login form input[type="submit"] {
+    background: #333;
+    color: #fff;
+}
+
+.login form input[type="submit"]:hover {
+    background: #e84393;
+}
+
+.login form .btn{
+    width: 100%;
+}
+ */
+
+
+.user-login{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.user-login form a {
+    color: #e84393;
+    width: 100%;
+    text-decoration: none;
+}
+
+.user-login form a:hover {
+    color: #333;
+    width: 100%; 
+
+
+}

@@ -1,0 +1,140 @@
+body {
+    background-color: #ecedee
+}
+
+.card {
+   
+    border: none;
+    overflow: hidden
+}
+
+.thumbnail_images ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+}
+
+.thumbnail_images ul li {
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #eee;
+    cursor: pointer;
+    transition: all 0.5s
+
+}
+
+.thumbnail_images ul li:hover {
+    border: 2px solid #000
+}
+
+.main_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    height: 600px;
+    width: 100%;
+    overflow: hidden
+}
+
+.heart {
+    height: 29px;
+    width: 29px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e84393;
+}
+
+
+.content p {
+    font-size: 12px
+}
+
+.ratings span {
+    font-size: 14px;
+    margin-left: 12px
+}
+
+.colors {
+    margin-top: 5px
+}
+
+.colors ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px
+}
+
+.colors ul li {
+   max-height: 20px;
+   max-width: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.colors ul li:nth-child(1) {
+    background-color: #6c704d
+}
+
+.colors ul li:nth-child(2) {
+    background-color: #96918b
+}
+
+.colors ul li:nth-child(3) {
+    background-color: #68778e
+}
+
+.colors ul li:nth-child(4) {
+    background-color: #263f55
+}
+
+.colors ul li:nth-child(5) {
+    background-color: black
+}
+
+.right-side {
+
+position: relative;
+
+}
+
+
+
+
+
+.buttons .btn {
+    margin-right: 3px;
+    height: 50px;
+    width: 120px;
+    border-radius: 0px !important
+}
+
+.buttons .share{
+background: #fff;
+    color: #e84393;
+
+    /* margin: auto 0 ;
+    padding-left: 5px; */
+    
+   
+
+}
+.buttons .share:hover{
+background: #fff;
+    color: #000;
+    /* margin: auto 0 ;
+    padding-left: 5px; */
+
+}

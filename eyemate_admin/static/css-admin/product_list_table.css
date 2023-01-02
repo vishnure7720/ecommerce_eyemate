@@ -1,0 +1,8 @@
+
+.product_list_table{
+  position: relative;
+  padding-top: 100px;
+  z-index: -1;
+  max-height: fit-content;
+    
+}

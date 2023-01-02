@@ -1,0 +1,21 @@
+
+
+
+.seller-login{
+   background: linear-gradient(to right,
+  rgba(132, 250, 176, 1),
+  rgba(143, 211, 244, 1),rgba(132, 250, 176, 1));
+}
+
+.btn-primary{
+  background: linear-gradient(to right,
+  rgba(132, 250, 176, 1),
+  rgba(143, 211, 244, 1),rgba(132, 250, 176, 1));
+  color: black;
+}
+
+.card-body p a{
+  color:blue;
+  text-decoration: none;
+}
+

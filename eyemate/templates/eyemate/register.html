@@ -1,0 +1,155 @@
+{% extends "eyemate/master.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<!-- header section  -->
+
+<section class="heading">
+    <h1>ACCOUNT</h1>
+    <p> <a href="{% url 'store' %}">home</a> >> register </p>
+</section>
+
+<!-- header section ends-->
+
+
+
+
+
+<!-- register form section starts -->
+
+<!-- <section class="register-form">
+
+    <form action="">
+        <h3>register now</h3>
+        <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" name="" placeholder="enter your name" id="">
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" name="" placeholder="enter your email" id="">
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-lock"></span>
+            <input type="password" name="" placeholder="enter your password" id="">
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-lock"></span>
+            <input type="password" name="" placeholder="confirm your password" id="">
+        </div>
+        <input type="submit" value="sign up" class="btn">
+        <br><br>
+        <a href="{% url 'store6' %}" class="btn">already have an account</a>
+    </form>
+
+</section> -->
+
+<!-- register form section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="user-register">
+
+    <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form3Example1" class="form-control" placeholder="First name"/>
+            
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form3Example2" class="form-control" placeholder="Last name"/>
+              
+            </div>
+          </div>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form3Example3" class="form-control" placeholder="Email address" />
+          
+        </div>
+      
+          <!-- mobile input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form3Example4" class="form-control"  placeholder="Phone"/>
+            
+          </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="password" id="form3Example5" class="form-control" placeholder="Password" />
+        </div>
+      
+        <!-- repear Password input -->
+        <div class="form-outline mb-4">
+            <input type="password" id="form3Example6" class="form-control" placeholder="Repeat your password" />
+          </div>
+
+        <!-- Checkbox -->
+        <!-- <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked >
+          <label class="form-check-label" for="form2Example33">
+            
+          </label>
+        </div> -->
+
+        <a href="{% url 'store6' %}" class="btn">Already have an account</a>
+        
+        
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          <p>or sign up with:</p>
+          <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+      
+          <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-google"></i>
+          </button>
+      
+          <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+          </button>
+      
+          <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

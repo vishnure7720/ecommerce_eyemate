@@ -1,0 +1,159 @@
+
+
+section {
+    padding: 3rem 5%;
+
+}
+.nav-row{
+  position:fixed;
+  z-index: 100 !important;
+ width: 1550px !important;
+
+ 
+ 
+}
+.profile{
+ 
+  position: relative;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 50px;
+  overflow: visible;
+  border: 1px solid black;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: 0 auto;
+}
+.photo{
+
+  position: relative;
+  margin: 0 auto;
+  padding: 0 ;
+max-height: 50px;
+max-width: 50px;
+min-width: 50px;
+min-height: 50px;
+  border-radius: 50%;
+ 
+  
+}
+
+.heading {
+    height: 150px;
+    text-align: center;
+    background: #e84393;
+   
+   
+}
+.navbar-collapse form a{
+  color: #e84393;
+}
+
+.fa-shopping-cart {
+    color: #e84393;
+}
+
+
+.btn-outline-success {
+    margin-right: 2rem;
+}
+
+
+
+
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 5.5rem;
+  
+  }
+
+.footer .box-container .box h3 {
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+  }
+  
+.footer .box-container .box a {
+  display: block;
+  font-size: 1.5rem;
+  color: #666;
+  padding: 1rem 0;
+  text-align: left;
+}
+
+
+.footer .box-container .box a:hover {
+  color:#e84393;
+  /* padding-right: .5rem; */
+  text-decoration: none;
+}
+
+.footer .box-container .box a:hover i {
+  padding-left: 2rem;
+
+}
+
+
+.footer .box-container .box a i {
+  color: #e84393;
+  /* padding-right: .5rem; */
+}
+
+
+.footer .box-container .box p {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+.footer .box-container .box form input[type="email"] {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.1rem;
+    text-transform: none;
+    margin: .5rem 0;
+    height: .5rem;
+
+  }
+.footer .box-container .box .btn{
+  border-color: #333;
+  padding: .2rem .2rem;
+  font-size: .9rem;
+  
+  
+  
+
+}
+
+
+.footer .box-container .box .btn:hover{
+    padding: .2rem .2rem;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+  background-color:red;
+  color: white;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    color: #666;
+    border-top: 0.2rem solid #333;
+}
+
+.footer .credit span {
+    color: #e84393;
+}
+
+

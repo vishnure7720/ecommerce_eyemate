@@ -1,0 +1,42 @@
+
+
+
+
+
+.gradient-custom {
+
+  background-color:#fff;
+  
+  }
+
+  .gradient-custom .card-header{
+    background-color: rgb(160, 159, 159);
+  }
+
+  .card{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  }
+
+
+.buttons  button{
+
+    background-color: rgb(44, 41, 41);
+    color: #fff;
+    border-color: rgb(44, 41, 41);
+    
+  }
+
+  .buttons  button:hover{
+    
+    background-color: rgb(64, 62, 62) ;
+    color: #fff;
+    border-color: rgb(44, 41, 41);
+    
+  }
+  
+
+
+
+
+
+ 
